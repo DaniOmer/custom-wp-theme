@@ -35,7 +35,7 @@ function custom_wp_customize_register( $wp_customize ) {
   ) );
 
   $wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'logo_light', array(
-    'label' => __( 'Logo Light', 'challenge-s2' ),
+    'label' => __( 'Logo Light', 'wp_custom' ),
     'section' => 'title_tagline',
     'settings' => 'logo_light',
   ) ) );
@@ -47,7 +47,7 @@ function custom_wp_customize_register( $wp_customize ) {
   ) );
 
   $wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'logo_dark', array(
-    'label' => __( 'Logo Dark', 'challenge-s2' ),
+    'label' => __( 'Logo Dark', 'wp_custom' ),
     'section' => 'title_tagline',
     'settings' => 'logo_dark',
   ) ) );
