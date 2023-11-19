@@ -23,8 +23,8 @@ add_action('init', 'custom_wpmenu');
 
 add_theme_support('post-thumbnails');
 
-add_action('wp_enqueue_scripts', 'Exam_WP_style');
-add_action('wp_enqueue_scripts', 'Exam_WP_script');
+add_action('wp_enqueue_scripts', 'wp_custom_style');
+add_action('wp_enqueue_scripts', 'wp_custom_script');
 
 
 function custom_wp_customize_register( $wp_customize ) {

@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+
+.list-pink-decoration {
+    margin: 0 1.5em;
+    line-height: 38px; /* 190% */
+}
+
+.list-pink-decoration li{
+    position: relative;
+}
+.list-pink-decoration li::before {
+    content: "";
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left: -1em;
+    width: 5px;
+    height: 5px;
+    background-image: linear-gradient(90deg, #FFD0A8 0%, #FF4FC0 100%);
+    background-attachment: fixed;
+    border-radius: 50%;
+                    
+}

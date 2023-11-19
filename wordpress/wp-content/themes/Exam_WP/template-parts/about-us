@@ -1,0 +1,70 @@
+<?php /* Template Name: About us */
+get_header();
+?>
+
+<section id="about-us" class="grid mt-28">
+        <div class="grid w-full p-5 md:p-0 md:w-[89.5%] md:justify-self-end">
+          <h1 class="text-h1 font-mulish text-blue">About us</h1>
+          <div class = "md:w-11/12 w-full flex flex-col md:justify-self-end mt-20">
+            <img src="<?=get_template_directory_uri()?>/assets/img/png/4.png" alt="Smartphone prenant une photo">
+            <article class="mt-10 w-full md:w-6/12">
+              <h2 class="text-h2 font-mulish text-blue">Sky’s the limit</h2>
+              <p class="text-p26 font-mulish text-gray mt-3">Specializing in the creation of exceptional events for private and corporate clients, we design, plan and manage every project from conception to execution. </p>
+            </article>
+          </div>
+        </div>  
+      </section>
+      <section id="our-services" class="w-full grid grid-cols-12 my-28">
+        <div class="col-span-4 ">
+          <img class="object-cover h-full hidden md:block" src="<?=get_template_directory_uri()?>/assets/img/png/2.png" alt="Homme prenant une photo">
+        </div>
+        <div class="col-span-12 md:col-span-8 flex justify-center items-center">
+          <div class ="w-full p-5 md:p-0 md:w-9/12 flex flex-col gap-10">
+            <article>
+              <h3 class="text-h2 font-mulish text-blue">Who are we?</h3>
+              <p class="text-p26 text-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu convallis elit, at convallis magna.</p>
+            </article>
+            <article>
+              <h3 class="text-h2 font-mulish text-blue">Our vision</h3>
+              <p class="text-p26 text-gray"> Nullam faucibus interdum massa. Duis eget leo mattis, pulvinar nisi et, consequat lectus. Suspendisse commodo magna orci, id luctus risus porta pharetra. Fusce vehicula aliquet urna non ultricies.</p>
+            </article>
+            <article>
+              <h3 class="text-h2 font-mulish text-blue">Our mission</h3>
+              <p class="text-p26 text-gray">Vivamus et viverra neque, ut pharetra ipsum. Aliquam eget consequat libero, quis cursus tortor. Aliquam suscipit eros sit amet velit malesuada dapibus. Fusce in vehicula tellus. Donec quis lorem ut magna tincidunt egestas. </p>
+            </article>
+          </div>
+
+        </div>
+      </section>
+        
+      <section class="my-28 gap-5 mx-auto flex flex-col  w-11/12">
+          <h2 class="text-h2 font-mulish text-blue">Our Team</h2>
+          <div class="flex gap-12 overflow-auto scrollbar-hide">
+            <div>
+              <img src="<?=get_template_directory_uri()?>/assets/img/png/5.png" class="">
+              <h3 class="text-h4 text-blue font-mulish">Sales Manager</h3>
+              <p class="text-p26 text-gray font-mulish">+33 1 53 31 25 23</p>
+              <p class="text-p26 text-gray font-mulish">sales@company.com</p>
+            </div>
+            <div>
+              <img src="<?=get_template_directory_uri()?>/assets/img/png/6.png" class="">
+              <h3 class="text-h4 text-blue font-mulish">Event planner</h3>
+              <p class="text-p26 text-gray font-mulish">+33 1 53 31 25 24</p>
+              <p class="text-p26 text-gray font-mulish">plan@company.com</p>
+            </div>
+            <div>
+              <img src="<?=get_template_directory_uri()?>/assets/img/png/7.png" class="">
+              <h3 class="text-h4 text-blue font-mulish">Designer</h3>
+              <p class="text-p26 text-gray font-mulish">+33 1 53 31 25 20</p>
+              <p class="text-p26 text-gray font-mulish">design@company.com</p>
+            </div>
+            <div>
+              <img src="<?=get_template_directory_uri()?>/assets/img/png/8.png" class="">
+              <h3 class="text-h4 text-blue font-mulish">CEO</h3>
+              <p class="text-p26 text-gray font-mulish">+33 1 53 31 25 25</p>
+              <p class="text-p26 text-gray font-mulish">ceo@company.com</p>
+            </div>
+          </div>
+         
+      </section>
+<?php get_footer();?>
